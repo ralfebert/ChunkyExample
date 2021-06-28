@@ -1,9 +1,4 @@
-import Algorithms
 import SwiftUI
-
-struct Food: Identifiable, Hashable {
-    var id: String
-}
 
 struct FoodChoiceView: View {
     let foodChoices = ["🌭", "🌮", "🥗", "🍕", "🧇", "🥪"]
@@ -12,14 +7,10 @@ struct FoodChoiceView: View {
 
     var body: some View {
         VStack {
-            VStack {
-                ForEach(self.foodChoices.chunks(ofCount: self.chunkByCount), id: \.self) { chunk in
-                    HStack {
-                        ForEach(chunk, id: \.self) { food in
-                            Text(food)
-                                .font(.largeTitle)
-                        }
-                    }
+            HStack {
+                ForEach(self.foodChoices, id: \.self) { food in
+                    Text(food)
+                        .font(.largeTitle)
                 }
             }
 
