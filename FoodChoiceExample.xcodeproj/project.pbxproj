@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF51F003268A4A12002B53F9 /* ChunkyExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51F002268A4A12002B53F9 /* ChunkyExampleApp.swift */; };
-		BF51F005268A4A12002B53F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51F004268A4A12002B53F9 /* ContentView.swift */; };
+		BF51F003268A4A12002B53F9 /* FoodChoiceExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51F002268A4A12002B53F9 /* FoodChoiceExampleApp.swift */; };
+		BF51F005268A4A12002B53F9 /* FoodChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51F004268A4A12002B53F9 /* FoodChoiceView.swift */; };
 		BF51F007268A4A13002B53F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF51F006268A4A13002B53F9 /* Assets.xcassets */; };
 		BF51F00A268A4A13002B53F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF51F009268A4A13002B53F9 /* Preview Assets.xcassets */; };
+		BF80E5E2268A517200672459 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = BF80E5E1268A517200672459 /* Algorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF51EFFF268A4A12002B53F9 /* ChunkyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChunkyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF51F002268A4A12002B53F9 /* ChunkyExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkyExampleApp.swift; sourceTree = "<group>"; };
-		BF51F004268A4A12002B53F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF51EFFF268A4A12002B53F9 /* FoodChoiceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodChoiceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF51F002268A4A12002B53F9 /* FoodChoiceExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodChoiceExampleApp.swift; sourceTree = "<group>"; };
+		BF51F004268A4A12002B53F9 /* FoodChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodChoiceView.swift; sourceTree = "<group>"; };
 		BF51F006268A4A13002B53F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF51F009268A4A13002B53F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF80E5E3268A57B500672459 /* FoodChoiceExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FoodChoiceExample-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF80E5E2268A517200672459 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,7 +38,8 @@
 		BF51EFF6268A4A12002B53F9 = {
 			isa = PBXGroup;
 			children = (
-				BF51F001268A4A12002B53F9 /* ChunkyExample */,
+				BF80E5E3268A57B500672459 /* FoodChoiceExample-Info.plist */,
+				BF51F001268A4A12002B53F9 /* FoodChoiceExample */,
 				BF51F000268A4A12002B53F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +47,20 @@
 		BF51F000268A4A12002B53F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF51EFFF268A4A12002B53F9 /* ChunkyExample.app */,
+				BF51EFFF268A4A12002B53F9 /* FoodChoiceExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF51F001268A4A12002B53F9 /* ChunkyExample */ = {
+		BF51F001268A4A12002B53F9 /* FoodChoiceExample */ = {
 			isa = PBXGroup;
 			children = (
-				BF51F002268A4A12002B53F9 /* ChunkyExampleApp.swift */,
-				BF51F004268A4A12002B53F9 /* ContentView.swift */,
+				BF51F002268A4A12002B53F9 /* FoodChoiceExampleApp.swift */,
+				BF51F004268A4A12002B53F9 /* FoodChoiceView.swift */,
 				BF51F006268A4A13002B53F9 /* Assets.xcassets */,
 				BF51F008268A4A13002B53F9 /* Preview Content */,
 			);
-			path = ChunkyExample;
+			path = FoodChoiceExample;
 			sourceTree = "<group>";
 		};
 		BF51F008268A4A13002B53F9 /* Preview Content */ = {
@@ -70,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF51EFFE268A4A12002B53F9 /* ChunkyExample */ = {
+		BF51EFFE268A4A12002B53F9 /* FoodChoiceExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF51F00D268A4A13002B53F9 /* Build configuration list for PBXNativeTarget "ChunkyExample" */;
+			buildConfigurationList = BF51F00D268A4A13002B53F9 /* Build configuration list for PBXNativeTarget "FoodChoiceExample" */;
 			buildPhases = (
 				BF51EFFB268A4A12002B53F9 /* Sources */,
 				BF51EFFC268A4A12002B53F9 /* Frameworks */,
@@ -82,9 +86,12 @@
 			);
 			dependencies = (
 			);
-			name = ChunkyExample;
+			name = FoodChoiceExample;
+			packageProductDependencies = (
+				BF80E5E1268A517200672459 /* Algorithms */,
+			);
 			productName = ChunkyExample;
-			productReference = BF51EFFF268A4A12002B53F9 /* ChunkyExample.app */;
+			productReference = BF51EFFF268A4A12002B53F9 /* FoodChoiceExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF51EFFA268A4A12002B53F9 /* Build configuration list for PBXProject "ChunkyExample" */;
+			buildConfigurationList = BF51EFFA268A4A12002B53F9 /* Build configuration list for PBXProject "FoodChoiceExample" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +118,14 @@
 				Base,
 			);
 			mainGroup = BF51EFF6268A4A12002B53F9;
+			packageReferences = (
+				BF80E5E0268A517200672459 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = BF51F000268A4A12002B53F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF51EFFE268A4A12002B53F9 /* ChunkyExample */,
+				BF51EFFE268A4A12002B53F9 /* FoodChoiceExample */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF51F005268A4A12002B53F9 /* ContentView.swift in Sources */,
-				BF51F003268A4A12002B53F9 /* ChunkyExampleApp.swift in Sources */,
+				BF51F005268A4A12002B53F9 /* FoodChoiceView.swift in Sources */,
+				BF51F003268A4A12002B53F9 /* FoodChoiceExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +278,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ChunkyExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FoodChoiceExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FoodChoiceExample-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = FoodChoiceExample;
+				INFOPLIST_KEY_CFBundleName = FoodChoiceExample;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChunkyExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodChoiceExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,9 +311,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ChunkyExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FoodChoiceExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FoodChoiceExample-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = FoodChoiceExample;
+				INFOPLIST_KEY_CFBundleName = FoodChoiceExample;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,7 +329,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChunkyExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodChoiceExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +340,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF51EFFA268A4A12002B53F9 /* Build configuration list for PBXProject "ChunkyExample" */ = {
+		BF51EFFA268A4A12002B53F9 /* Build configuration list for PBXProject "FoodChoiceExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF51F00B268A4A13002B53F9 /* Debug */,
@@ -331,7 +349,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF51F00D268A4A13002B53F9 /* Build configuration list for PBXNativeTarget "ChunkyExample" */ = {
+		BF51F00D268A4A13002B53F9 /* Build configuration list for PBXNativeTarget "FoodChoiceExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF51F00E268A4A13002B53F9 /* Debug */,
@@ -341,6 +359,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF80E5E0268A517200672459 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF80E5E1268A517200672459 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF80E5E0268A517200672459 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BF51EFF7268A4A12002B53F9 /* Project object */;
 }

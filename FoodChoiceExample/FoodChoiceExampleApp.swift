@@ -1,10 +1,10 @@
 import SwiftUI
 
 @main
-struct ChunkyExampleApp: App {
+struct FoodChoiceExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FoodChoiceView()
         }
     }
 }
